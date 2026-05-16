@@ -105,7 +105,7 @@
         const found = [];
         let page = 1;
         let consecutiveMisses = 0;
-        const MAX_CONSECUTIVE_MISSES = 5;
+        const MAX_CONSECUTIVE_MISSES = 10;
 
         updateStatus('🔍 正在检测页码...');
 
